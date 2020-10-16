@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Athletes Registration Form</title>
+</head>
+<body>
+    <section>
+        <h1 style="text-align: center;">Athletes Registration Form</h1>
+        <form action="/action_page.php" method="GET">
+            <label for="fname">First Name:</label> <br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="birthday">Date Of Birth</label><br>
+            <input type="date" id="birthday" name="birthday"><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age"><br>
+
+            <label for="gender">Gender:</label><br>
+            <select name="gender" id="gender">
+                <option value="select">Select a Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+
+            <label for="pnumber">Phone Number:</label><br>
+            <input type="text" id="pnumber" name="pnumber"><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="nationality">Nationality:</label><br>
+            <select name="nationality" id="nationality">
+                <option value="select">Select Country</option>
+                <option value="cameroon">Cameroon</option>
+                <option value="ghana">Ghana</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="togo">Togo</option>
+            </select><br>
+
+            <label for="state">State of Orgin:</label><br>
+            <select name="state" id="state">
+                <option value="select">Select State</option>
+                <option value="abia">Abia</option>
+                <option value="benue">Benue</option>
+                <option value="delta">Delta</option>
+                <option value="ekiti">Ekiti</option>
+            </select><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section>
+        <h2 style="text-align: center;">User Login</h2>
+        <form action="/action_page.php" method="GET">
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Email Address"><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
